@@ -18,3 +18,15 @@ A basic example of a Spring Boot API for managing content data. This repository 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/marvintv/content-api-spring.git
+2. **Navigate to the project directory**:
+   ```bash
+   cd content-api-spring
+3. **Run the Application**:
+   ```bash
+   ./mvnw spring-boot:run
+
+## API Endpoints
+* **GET** `/api/content` - Retrieve all content
+* **POST** `/api/content` - Add new content
+* **PUT** `/api/content/{id}` - Update content by ID
+* **DELETE** `/api/content/{id}` - Delete content by ID
